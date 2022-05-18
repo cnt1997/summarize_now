@@ -1,24 +1,38 @@
-# README
+# アプリケーション名  
+  summarize_now
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# アプリケーション概要  
+  新しい概念の効率的な学習、自分のわからない・知らない単語・概念の意味、それを用いた自分の意見をまとめることができる
 
-Things you may want to cover:
+#  URL※	デプロイ済みのURLを記載。デプロイが済んでいない場合は、デプロイが完了次第記載すること。
 
-* Ruby version
+# Basic認証ID/Pass	
 
-* System dependencies
+# 利用方法	
+  学習のテーマを一番左側に記述
+  テーマの右側に単語を記述
+  単語の右側にその解説・自分の説明を記述
+  単語やその意味を見ながら、自分の考えをまとめる
 
-* Configuration
+# アプリケーションを作成した背景	
+  学習に励む人が新しい分野・教科を学習する際に、それらの専門用語や知らない単語が出てくるので、自分の考えがまとまらないという課題がある
+  それらを記載することで検索・確認する手間を防ぎ、かつ、見ながら作業することで記憶しやすく、自分の考えをまとめやすくする
 
-* Database creation
+* 洗い出した要件	
+要件定義をまとめたスプレッドシートのリンクを記載。
+  https://docs.google.com/spreadsheets/d/103d71zUgt9T8y-147TT3ZxB0CWzMtSlsIlOo3Qvxqn0/edit#gid=982722306
 
-* Database initialization
+* 実装した機能についての画像やGIFおよびその説明※	実装した機能について、それぞれどのような特徴があるのかを列挙する形で記載。画像はGyazoで、GIFはGyazoGIFで撮影すること。
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# 実装予定の機能	
+  一覧・投稿・編集・削除を全て1つのページで行う
+  ログイン機能を実装し、他人の考えのまとめを覗き見できるようにする
+  （当然編集は不可）
+# データベース設計  
+[![Image from Gyazo](https://i.gyazo.com/eec34d1163234176f62ba00466a02aa0.png)](https://gyazo.com/eec34d1163234176f62ba00466a02aa0)
+# 画面遷移図	
+[![Image from Gyazo](https://i.gyazo.com/5360938004ca7ba590131f9f5acaabb9.png)](https://gyazo.com/5360938004ca7ba590131f9f5acaabb9)
+# 開発環境	使用した言語・サービスを記載。
+ruby/ruby on rails/HTML/CSS
+* ローカルでの動作方法※	git cloneしてから、ローカルで動作をさせるまでに必要なコマンドを記載。
+* 工夫したポイント※
